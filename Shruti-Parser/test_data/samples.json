@@ -1,0 +1,34 @@
+{
+    "samples": [
+        {
+            "text": "Write a poem about the sunset",
+            "expected_intent": "command",
+            "expected_actions": ["write poem", "describe sunset"],
+            "type": "creative_command"
+        },
+        {
+            "text": "What is artificial intelligence and how does it work?",
+            "expected_intent": "query",
+            "expected_actions": [],
+            "type": "knowledge_query"
+        },
+        {
+            "text": "To make a cake, first preheat the oven to 350°F. Then mix flour, sugar, and eggs in a bowl.",
+            "expected_intent": "teaching",
+            "expected_actions": ["preheat oven", "mix ingredients"],
+            "type": "instruction"
+        },
+        {
+            "text": "The average temperature in New York last week was 72°F with 65% humidity.",
+            "expected_intent": "data",
+            "expected_actions": [],
+            "type": "measurement_data"
+        },
+        {
+            "text": "Can you explain how photosynthesis works in plants?",
+            "expected_intent": "query",
+            "expected_actions": [],
+            "type": "scientific_query"
+        }
+    ]
+}

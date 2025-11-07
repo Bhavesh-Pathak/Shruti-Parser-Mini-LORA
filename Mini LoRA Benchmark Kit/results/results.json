@@ -1,0 +1,37 @@
+{
+  "base_eval": {
+    "eval_accuracy": 0.5,
+    "eval_f1": 0.6666666666666666,
+    "eval_loss": 0.6869916915893555,
+    "eval_model_preparation_time": 0.001,
+    "eval_runtime": 0.043,
+    "eval_samples_per_second": 46.502,
+    "eval_steps_per_second": 23.251
+  },
+  "lora_eval": {
+    "eval_accuracy": 0.5,
+    "eval_f1": 0.0,
+    "eval_loss": 0.6970257759094238,
+    "eval_runtime": 0.023,
+    "eval_samples_per_second": 86.957,
+    "eval_steps_per_second": 43.478,
+    "epoch": 3.0
+  },
+  "base_latency_s": 0.014931011199951171,
+  "base_tokens_per_sec": 1071.595204486373,
+  "lora_latency_s": 0.016849029064178466,
+  "lora_tokens_per_sec": 949.6096148362918,
+  "test_size": 2,
+  "base_preds": [
+    1,
+    1
+  ],
+  "lora_preds": [
+    0,
+    0
+  ],
+  "labels": [
+    0,
+    1
+  ]
+}

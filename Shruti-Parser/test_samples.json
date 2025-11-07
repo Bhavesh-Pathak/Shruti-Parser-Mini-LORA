@@ -1,0 +1,14 @@
+{
+  "samples": [
+    {
+      "name": "teaching_sample",
+      "text": "When writing unit tests, prefer small, focused test cases. Use fixtures for shared setup and assert one behavior per test so failures are easy to diagnose.",
+      "expected_intent": "teaching"
+    },
+    {
+      "name": "command_sample",
+      "text": "Please update the Q3 sales report to include the new product figures, run the revenue forecast model with the updated data, and email the final report to finance by Friday.",
+      "expected_intent": "command"
+    }
+  ]
+}
